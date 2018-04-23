@@ -538,10 +538,11 @@
   }
 
   .react-datepicker__navigation--previous {
-    border-right-color: $datepicker__muted-color;
+    border-right-color: transparent;
+    border-color: transparent;
 
     &:hover {
-      border-right-color: darken($datepicker__muted-color, 10%);
+      border-right-color: transparent;
     }
 
     &--disabled,
@@ -552,10 +553,11 @@
   }
 
   .react-datepicker__navigation--next {
-    border-left-color: $datepicker__muted-color;
+    border-left-color: transparent;
+    border-color: transparent;
 
     &:hover {
-      border-left-color: darken($datepicker__muted-color, 10%);
+      border-left-color: transparent;
     }
 
     &--disabled,
