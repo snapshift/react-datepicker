@@ -131,10 +131,11 @@
 
   &--previous {
     left: 10px;
-    border-right-color: $datepicker__muted-color;
+    border-right-color: transparent;
+    border-color: transparent;
 
     &:hover {
-      border-right-color: darken($datepicker__muted-color, 10%);
+      border-right-color: transparent;
     }
 
     &--disabled,
@@ -146,13 +147,14 @@
 
   &--next {
     right: 10px;
-    border-left-color: $datepicker__muted-color;
+    border-left-color: transparent;
+    border-color: transparent;
     &--with-time:not(&--with-today-button) {
       right: 80px;
     }
 
     &:hover {
-      border-left-color: darken($datepicker__muted-color, 10%);
+      border-left-color: transparent;
     }
 
     &--disabled,
@@ -444,11 +446,11 @@
     background-color: $datepicker__muted-color;
 
     .react-datepicker__navigation--years-upcoming {
-      border-bottom-color: darken($datepicker__muted-color, 10%);
+      border-bottom-color: transparent;
     }
 
     .react-datepicker__navigation--years-previous {
-      border-top-color: darken($datepicker__muted-color, 10%);
+      border-top-color: transparent;
     }
   }
 
